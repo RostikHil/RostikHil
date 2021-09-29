@@ -1,0 +1,1139 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    background-image: url(../img/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;   
+    
+}
+
+.inner-page {
+    color: #000000;
+
+    background-color: #f9f6f3;
+    background-image: url(../img/bg.fon.jpg);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
+
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: #000000;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    background-color: transparent;
+}
+
+.site-navigation,
+.user-navigation  {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.site-navigation a,
+.user-navigation a {
+display: block;
+padding: 25px 20px;
+
+
+color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #242424;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-item p {
+margin: 0 10px;
+}
+
+.feature-item {
+    
+    text-align: center;
+    list-style: none;   
+}
+
+.feature-item h3 {
+    position: relative;
+    
+    margin: 0;
+    margin-bottom: 60px;
+
+font-size: 30px;
+line-height: 42px; 
+
+/* background: crimson; */
+}
+
+.feature-item h3::after {
+    content: "";
+    
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+
+    transform: rotate(45deg);
+
+background: #ffffff;
+}
+
+.index-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-bottom: 35px;
+
+    color: #000000;
+
+    background-color: #f8f5f2;
+    background-image: url(../img/line.png),
+    url(../img/patter_Light.jpg);
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+
+.index-columns h2 {
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.news-list {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.news-item {
+    margin-bottom: 25px;
+}
+
+.news-item p {
+    margin: 0;
+}
+
+.gallery-content {
+    height: 164px;
+    margin: 0;
+
+    background-color: #cccccc;
+    border: 7px solid #ffffff;
+}
+
+.gallery-content img {
+    width: 286px;
+    height: 164px;
+}
+
+.gallery-button {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+
+    width: 140px;
+    margin: 0;
+}
+
+.gallery-button-back {
+    left: 0;
+}
+
+.gallery-button-next {
+    right: 0;
+}
+
+
+
+.main-footer {
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url(../img/pattern-dark.jpg);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 141px;
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+
+    background-color: #000000;
+}
+    
+.social-button:hover,
+.social-button:focus {
+background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+    fill:  #000000;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.modal {
+    color: #000000;
+
+    background-color: #f8f3f0;
+    background-image: url(../img/pattern-light.jpg);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.modal h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.login-from input[type="text"]
+.login-from input[type=password] {
+    font: inherit;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #f9f6f3;
+    border: 2px solid #000000;
+}
+
+.login-from input:focus {
+    border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+    color: #663d15;
+}
+
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+/* Barbershop-item */
+
+
+.product-photo-preview {
+    list-style: none;
+}
+
+.product-photo-preview li {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-photo-full {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-article {
+    text-align: right;
+    color: #aeaeae;
+}
+
+.product-price b {
+    line-height: 20px;
+    text-align: center;
+
+    background-color: #e5e5e5;
+}
+
+.product-info h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.product-info ul {
+    list-style: none;
+}
+
+/* .inner-page ul {
+    list-style: none;
+} */
+
+/* Catalog */
+
+.breadcrumbs {
+list-style: none;
+}
+
+.breadcrumbs a{
+    color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    text-decoration: underline;
+}
+
+a.breadcrumbs-current {
+    color: #aba9a7;
+}
+.breadcrumbs-current {
+    color: #aba9a7;
+}
+
+
+.page-title {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter legend {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.filter ul {
+    list-style: none;
+    line-height: 18px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+    color: #663d15;
+}
+.filter-input:disabled + label {
+    color: #000;
+
+    opacity: 0.5;
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+.catalog-item {
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.catalog-item a {
+    color: #000;
+}
+
+.catalog-item h3 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.catalog-category {
+    text-transform: none;
+}
+
+.catalog-item-price b {
+    font-size: 14px; 
+    line-height: 20px;
+    text-align: center;
+
+    background-color: #e5e5e5;
+}
+
+.catalog-item-price .button {
+    line-height: 20px;
+    color: #fff;
+}
+
+.pagination-list {
+    list-style: none;
+}
+
+.pagination-item a {
+    color: #ffffff;
+
+    background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+    background-color: #663d15;
+}
+
+.pagination-item-current a {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+    color: #000;
+
+    background-color: #ffffff;
+}
+
+/* .modal-close  {
+    margin: 10px ;
+    margin-left: 0px;
+} */
+
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
+
+html {
+    box-sizing: border-box;
+}
+
+.content-box-component {
+    box-sizing: content-box;
+}
+
+
+/* Сеточные стили */
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    margin-bottom: 75px;
+
+    /* Временно для сетки */
+    min-height: 285px;
+}
+
+.inner-page .main-header {
+    margin-bottom: 50px;
+
+    background-color: #000000; 
+
+    min-height: 70px;
+    /* background-color: transparent; */
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+
+    /* Временно для сетки */
+    min-height: 285px;
+    
+    background-color: transparent;
+}    
+
+.inner-page .main-navigation {
+    /* display: flex; */
+    align-items: flex-start;
+    flex-direction: row;
+
+    min-height: 70px;
+} 
+
+.main-header-logo {
+    order: 2;
+    width: 368px;
+    height: 353px;
+
+    /* Временно для сетки */
+    /* display: block; */
+}
+
+.inner-page .main-header-logo {
+    order: 0;
+
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+}
+
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+
+    background-color: #000000;
+
+    /* Временно для сетки */
+    min-height: 70px;
+    /* background-color: transparent;   */
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+
+    /* Временно для сетки */
+    min-height: 70px;
+
+    /* background: rgba(234, 255, 45, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(234, 255, 45); */
+}
+
+.user-navigation {
+    display: flex;
+    max-width: 140px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    /* Временно для сетки */
+    min-height: 70px;
+
+    /* background: rgba(234, 255, 45, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(234, 255, 45); */
+}
+
+.user-navigation .login-link {
+    position: relative;
+    padding-left: 50px;
+
+    /* background: rgba(234, 255, 45, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(234, 255, 45); */
+}
+
+.login-link::before {
+    content: "";
+
+    position: absolute;
+    top: 27px;
+    left: 24px;
+
+    width: 16px;
+    height: 18px;
+
+    background-image: url(../img/login.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+    opacity: 1;
+}
+
+.inner-page .user-navigation {
+margin-left: auto;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+ 
+    list-style: none;
+
+    min-height: 150px;
+}
+
+.feature-item {
+    width: 300px;
+
+    text-align: center;
+
+    /* background: rgba(255, 37, 37, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(255, 9, 9); */
+
+    min-height: 150px;
+}
+
+/* .index-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-bottom: 35px;
+
+     /* background-image: none;  */
+     /* background-color: transparent; */
+/* } */
+
+.news {
+    width: 380px;
+
+
+
+    /* background:rgb(34, 214, 73);
+    box-shadow: 0 0 0 3px green; */
+
+    min-height: 315px;
+}
+
+.gallery {
+    width: 300px;
+
+    min-height: 315px;
+}
+
+.gallery-container {
+position: relative;
+
+height: 260px;
+
+    /* background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82); */
+}
+
+.contacts {
+    width: 380px;
+
+    min-height: 295px;
+}
+
+.contacts p {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.appointment {
+    width: 300px;
+
+    min-height: 320px;
+}
+
+.appointment-info {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.appointment-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.appointment-item {
+    width: 140px;
+    margin: 0;
+    margin-bottom: 10px;
+/* 
+    background: rgba(234, 255, 45, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(234, 255, 45); */
+}
+
+.appointment-item label{
+display: block;
+margin-bottom: 9px;
+margin-left: 15px;
+}
+
+.appointment-item input {
+    box-sizing: border-box;
+    width: 140px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+
+    font: inherit;
+
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+    border-color: #663d15;
+}
+
+.appointment .button {
+    /* display: block; */
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.page-title {
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0;
+
+    min-height: 42px;
+}
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+
+    min-height: 24px;
+}
+
+.catalog-columns {
+display: flex;
+justify-content: space-between;
+}
+
+.filters {
+    width: 180px;
+
+    min-height: 687px;
+}
+
+.catalog {
+    width: 700px;
+
+    min-height: 687px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+
+    list-style: none;
+}
+
+.catalog-item {
+    width: 220px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    min-height: 285px;
+    /* background-color: transparent; */
+    /* box-shadow: inset 0 0 0 2px purple; */
+}
+
+.catalog-item:nth-child(3n){ 
+margin-right: 0;
+}
+
+.pagination-list {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    min-height: 47px;
+}
+
+.main-footer {
+    padding: 60px 0;
+    margin-top: 65px;
+
+    /* background: none; */
+}
+
+.inner-page .main-footer {
+    margin-top: 45px;
+}
+
+.main-footer .container {
+    display: flex;
+}
+
+.footer-contacts {
+    width: 320px;
+    margin: 0;
+    margin-right: 70px;
+
+    min-height: 100px;
+}
+
+.footer-social {
+    width: 145px;
+
+    min-height: 100px; 
+}
+
+.footer-social b {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-copyright {
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
+
+    min-height: 100px;
+}
+
+.footer-copyright .button {
+    display: block;
+    margin: 0;
+}
+
+.footer-copyright b {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Barbershop-item */
+.product-photos {
+    width: 460px;
+
+    min-height: 677px;
+}
+
+.product-info {
+    width: 390px;
+
+    min-height: 677px;
+}
+
+
+
+
+
+
+/* *{ outline: 2px dotted 234; }
+*255* { 25: 0.2 dotted green; }
+* * * { outline: 2px dotted orange; }
+* * * * { outline: 2px dotted blue; }
+* * * * * { outline: 1px solid red; }
+* * * * * * { outline: 1px solid green; }
+* * * * * * * { outline: 1px solid orange; }
+* * * * * * * * { outline: 1px solid blue; } */
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Барбершопа 'Бородинський'</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="css/normalize.css" rel="stylesheet">
+
+</head>
+<body>  
+
+<header class="main-header">
+    <nav class="main-navigation">
+        <a class="main-header-logo" href="BarberShop.html">
+            <img src="img/index-logo.svg" width="368" height="153"  alt="Логотип Барбершопа 'Бородинський'">
+        </a>
+        <div class="main-navigation-wrapper">
+        <div class="container">
+         <ul class="site-navigation">
+             <li><a href="info.html">Информация</a></li>
+             <li><a href="new.html">Новости</a></li>
+             <li><a href="price.html">Прайс-лист</a></li>
+             <li><a href="catalog.html">Магазин</a></li>
+             <li><a href="contacts.html">Контакты</a></li>
+
+             </ul>
+             <ul class="user-navigation">
+                 <li><a class="login-link" href="login.html">Вход</a></li>
+             </ul>
+        </div>
+    </div>
+    </nav>
+</header>
+
+    <main class="container">
+
+    <h1 class="visually-hidden">Барбершоп "Бородинський"</h1>
+
+<section class="features">
+    <h2 class="visually-hidden">Преимущества</h2>
+    <ul class="features-list">
+        <li class="feature-item">
+        <h3>Быстро</h3>
+            <p>Мы делаем свою роботу быстро! Два часа пролетят незаметно  и вы - счастливый обладатель стильной стрижки-минутки!</p>
+        </li>
+        <li class="feature-item">
+        <h3>Круто</h3>
+            <p>Забудьте, как вы  стриглись раньше. Мы сделаем из вас звезду футбола и кино! Во всяком случае внешне.</p>
+        </li>    
+        <li class="feature-item">
+        <h3>Дорого</h3>    
+            <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не даст определеный статус?</p>
+            </ul>
+        </section>  
+
+    <div class="index-columns">
+        <section class="news">
+            <h2>Новости</h2>
+            <ul class="news-list">
+                <li class="news-item">
+                <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                <time datetime="2016-01-11">11 Января</time>
+                </li>
+                <li class="news-item">
+                    <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества
+                     титулов и наград пополнил наши  стройные ряды</p>
+                     <time datetime="2016-01-11">18 Января</time>
+                </li>
+            </ul>
+        
+        <a class="button" href="news.html">Все Новости</a>
+        </section>
+
+        <section class="gallery">
+            <h2>Фотогалерея</h2>
+            <div class="gallery-container">
+            <figure class="gallery-content">
+                <a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
+            </figure>
+        <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+     </div>
+    </section>
+    </div>
+    <div class="index-columns">
+        <section class="contacts">
+            <h2>Контактная Информация</h2>
+            <p>
+                Барбершоп "Бородинський"<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                Телефон: +38 (063) 84-39-669
+            </p>
+            <p>
+                Время роботы:<br>
+                пн-пт: с 10:00 до 22:00<br>
+                сб-нд: с 10:00 до 19:00
+            </p>
+            <a class="button" href="map.html">Как проехать</a>
+            <a class="button" href="contacts.html">Обратная связь</a>
+        </section>
+
+        <section class="appointment">
+            <h2>Записаться</h2>
+            <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+            <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+            <p class="appointment-item">
+                <label for="appointment-date">Дата</label>
+            <input id="appointment-date" type="text" name="date" value="" placeholder="24.09.2021">
+        </p>
+            <p class="appointment-item">
+                <label for="appointment-time">Время</label>
+            <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+        </p>
+            <p class="appointment-item">
+                <label for="appointment-name">Ваше имя</label>
+            <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+        </p>
+            <p class="appointment-item">
+                <label for="appointment-phone">Телефон</label>
+            <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+38 (063) 84-39-669">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+    </form>
+        </section>
+    </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+        <p class="footer-contacts">
+            Барбершоп "Бородинський"<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            <a href="map.html">Как нас найти</a><br>
+            Телефон: +38 (063) 84-39-669
+        </p>
+        <div class="footer-social">
+            <b>Давай дружить!</b>
+            <ul>
+             <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span><svg xmlns="http://www.w3.org/2000/svg" width="27" height="15" viewBox="0 0 26.14 14.91"><path d="M26 13.47l-.09-.17a13.55 13.55 0 0 0-2.6-3q-.87-.83-1.1-1.12A1 1 0 0 1 22 8a10.27 10.27 0 0 1 1.22-1.78l.88-1.16q2.35-3.13 2-4L26 .94a.8.8 0 0 0-.4-.22 2.14 2.14 0 0 0-.87 0h-3.92a.51.51 0 0 0-.27 0h-.3a.6.6 0 0 0-.15.14.93.93 0 0 0-.14.24 22.22 22.22 0 0 1-1.46 3.06q-.5.84-.93 1.46a7 7 0 0 1-.71.91 4.94 4.94 0 0 1-.52.47q-.23.18-.35.15l-.23-.05a.9.9 0 0 1-.31-.33 1.49 1.49 0 0 1-.16-.53V1.6a3.14 3.14 0 0 0 0-.62 2.12 2.12 0 0 0-.14-.44.73.73 0 0 0-.28-.33 1.57 1.57 0 0 0-.46-.18A9 9 0 0 0 12.57 0a8.93 8.93 0 0 0-3.25.33 1.83 1.83 0 0 0-.52.41q-.25.3-.07.33a1.67 1.67 0 0 1 1.16.59l.08.16a2.6 2.6 0 0 1 .19.63 6.32 6.32 0 0 1 .12 1 10.59 10.59 0 0 1 0 1.7q-.07.71-.13 1.1a2.21 2.21 0 0 1-.18.64 2.69 2.69 0 0 1-.16.3l-.07.07a1 1 0 0 1-.37.07.86.86 0 0 1-.46-.19 3.27 3.27 0 0 1-.56-.52 7 7 0 0 1-.66-.93q-.37-.6-.76-1.42l-.22-.39q-.2-.38-.56-1.11t-.62-1.43A.9.9 0 0 0 5.2.9h-.07a.93.93 0 0 0-.22-.16A1.44 1.44 0 0 0 4.6.65L.87.68A1 1 0 0 0 .1.94L0 1a.44.44 0 0 0 0 .22 1.08 1.08 0 0 0 .08.37Q.9 3.53 1.86 5.31t1.66 2.87Q4.23 9.27 5 10.24t1 1.24l.37.41.34.33a8.06 8.06 0 0 0 1 .78 16.34 16.34 0 0 0 1.4.9 7.6 7.6 0 0 0 1.79.72 6.19 6.19 0 0 0 2 .22h1.57a1.08 1.08 0 0 0 .72-.3l.05-.07a.9.9 0 0 0 .1-.25 1.38 1.38 0 0 0 0-.37 4.48 4.48 0 0 1 .09-1.05 2.77 2.77 0 0 1 .23-.71 1.74 1.74 0 0 1 .29-.4 1.19 1.19 0 0 1 .23-.2h.11a.86.86 0 0 1 .77.21 4.52 4.52 0 0 1 .83.79q.39.47.93 1.05a6.41 6.41 0 0 0 1 .87l.27.16a3.31 3.31 0 0 0 .71.3 1.53 1.53 0 0 0 .76.07l3.48-.05a1.58 1.58 0 0 0 .8-.17.68.68 0 0 0 .34-.37 1.06 1.06 0 0 0 0-.46 1.71 1.71 0 0 0-.1-.36z" fill="#fff"/></svg></a></li>   
+             <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewBox="0 0 10.15 21.74"><path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07 1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#fff"/></svg></a></li>   
+             <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M18 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-8 6a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM2.5 18a.47.47 0 0 1-.5-.5V9h2.1a3.4 3.4 0 0 0-.1 1 6 6 0 1 0 12 0 3.4 3.4 0 0 0-.1-1H18v8.5a.47.47 0 0 1-.5.5zM18 4.5a.47.47 0 0 1-.5.5h-2a.47.47 0 0 1-.5-.5v-2a.47.47 0 0 1 .5-.5h2a.47.47 0 0 1 .5.5z" fill="#fff"/></svg></a></li>   
+            </ul>
+        </div>
+        <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="https://www.instagram.com/hilrostik/">Hil_rostik</a>
+        </p>
+    </div>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль.</p>
+        <form class="login-form" action="http://echo.htmlacademy.ru" method="post">
+        <p>
+            <label class="visually-hidden" for="user-login">Логин</label>
+            <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+            <label class="visually-hidden" for="user-password">Пароль</label>
+            <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-password-info">
+            <label class="login-checkbox">
+            <input type="checkbox" name="remember" class="visually-hidden">
+            <span class="checkbox-indicator"></span>
+            Запомните меня
+        </label>   
+         <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <p>
+          <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу 
+            ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+</body>
+</html>
